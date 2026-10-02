@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -e
-mkdir -p data/files
-node --check server.js
-printf '%s\n' 'Build completed successfully.'
