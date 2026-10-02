@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: the-html-archives
+    runtime: node
+    buildCommand: ./build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
